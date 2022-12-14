@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+    <!-- JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/59b51e96a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu_wrap">
+            <div class="circle_menu">
+                <div class="hambuger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="inner_menu js-menu">
+                <div class="nav">
+                    <ul class="nav_wrap">
+                        <li class="nav_item">
+                            <a href="#main_container" class="active">
+                                MAIN
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about_story" class="active">
+                                ABOUT
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#project_container" class="active">
+                                WORK
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="active">
+                                CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main_container">
+        <div id="main_title">
+            <h1>WEB&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="ellipse_wrap">
+                    <span class="main_ellipse0"></span>
+                    <span class="main_ellipse1"><span class="ellipse1_line"></span></span>
+                </div>
+                &nbsp;&nbsp;Publisher
+                <div class="ellipse_wrap2">
+                    <span class="main_ellipse2">
+                        <a class="top_arrow" href="#"><img src="./img/top_arrow.png"></a>
+                    </span>
+                </div>
+                <span class="c_pink">Flexible</span> like a spring
+                <div class="ellipse_wrap3">
+                    <span class="main_ellipse3"></span><span class="main_ellipse4"></span>
+                </div>
+            </h1>
+            <span class="main_ellipse5"></span>
+            <img id="arrow1" src="./img/arrow1.png">
+            <ul id="title_ani1">
+                <li><img src="./img/t_pa.png"></li>
+                <li class="r_ani">
+                    <img src="./img/r_1.png" alt="">
+                    <img class="r2" src="./img/r_2.png" alt="">
+                    <img src="./img/r_3.png" alt="">
+                </li>
+                <li><img src="./img/t_k.png"></li>
+                <li class="t_j"><img src="./img/t_j.png" alt=""></li>
+                <li class="u_ani"><img class="u2" src="./img/t_u.png" alt=""></li>
+                <li><img src="./img/t_a.png" alt=""></li>
+            </ul>
+            <!-- <h2>스프링의 특성처럼 탄력있고 유연한 개발자 박주아입니다.<br />
+                형체도 자유자재로 변형되듯이 어느 환경에서도 유연하게
+                적응할 수 있습니다.</h2> -->
+        </div>
+        <!-- 마우스 스크롤 인터랙션 -->
+        <div id="mouse_scroll">
+            <a href="#about_story">
+                <div class="mouse">
+                    <div class="mouse_in"></div>
+                </div>
+                <div class="mouse_wheel">
+                    <span class="down-arrow-1"></span>
+                    <span class="down-arrow-2"></span>
+                    <span class="down-arrow-3"></span>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <section class="wrap" id="about_story">
+        <h1 class="title">My Story.</h1>
+        <h2>제 꿈의 시작은요</h2>
+        <div class="timeline_container" id="timeline_1">
+            <div class="timeline">
+                <div class="timeline_item" data-text="2018">
+                    <div class="timeline_content">
+                        <i class="fa-solid fa-paintbrush timeline1"></i>
+                        <h3 class="timeline_title timeline1">2018</h3>
+                        <p class="timeline_desc">진로에 대한 방황을 하다 입시미술에 대한 흥미를 가지게 되어 미술을 전공하게 되었습니다.
+                            처음으로 목표를 달성하기 위한 진정한 노력이 무엇인지 깨닫게 되었습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline_item" data-text="2020">
+                    <div class="timeline_content">
+                        <i class="fa-solid fa-school timeline2"></i>
+                        <h3 class="timeline_title timeline2">2020</h3>
+                        <p class="timeline_desc">미술 전공하면서 웹 디자이너라는 꿈을 갖게되어 계원예술대학교 디지털미디어디자인학과에 입학하게 되었습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline_item" data-text="2021">
+                    <div class="timeline_content">
+                        <i class="fa-solid fa-code timeline3"></i>
+                        <h3 class="timeline_title timeline3">2021</h3>
+                        <p class="timeline_desc">단순히 디자인에서 끝내는 것이 아닌 작업물을 직접 웹으로 구현시킬 수 있는 코딩에 흥미를 느껴 프로그래밍 선택하였습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline_item" data-text="2022">
+                    <div class="timeline_content">
+                        <i class="fa-solid fa-laptop-code timeline4"></i>
+                        <h3 class="timeline_title timeline4">2022</h3>
+                        <p class="timeline_desc">웹 디자이너라는 꿈을 가졌던 과거와는 달리 웹 퍼블리셔를 목표로 준비중입니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline_item" data-text="2022">
+                    <div class="timeline_content">
+                        <i class="fa-solid fa-building-user timeline5"></i>
+                        <h3 class="timeline_title timeline5">~2027
+                        </h3>
+                        <p class="timeline_desc">23년부터 27년도 미래계획은 취업 후 경력을 쌓거나 꾸준한 공부로 프론트 엔드 개발자까지 꿈꾸고 있습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="final_text">이제부터가 저의 시작입니다.<br />
+            흥미로운 코딩을 공부하고 도전하는 과정을 즐길 줄 아는 웹 퍼블리셔가 되겠습니다.</p>
+    </section>
+
+    <!-- keyword -->
+    <section id="about_keyword">
+        <h1 class="title wrap c_purple">My Keyword.</h1>
+        <div class="marquee_wrap">
+            <!-- keyword1 -->
+            <div class="marquee_container">
+                <div class="track">
+                    <!-- marquee1 -->
+                    <div class="keyword_container k_contain2">
+                        <dl class="keyword keyword2">
+                            <div class="toggle_all toggle2"><i class="fa-solid fa-scale-balanced"></i></div>
+                            <dt class="k_title k_title2">Honest</dt>
+                            <dd class="k_text k_text2"><span class="point_text">"훌륭함으로 가기 위한 첫 번째 단계는
+                                    정직이다."</span><br />
+                                저는 스스로에게 떳떳한 사람이 되자라는 가치관을 가지고 있습니다.
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain0">
+                        <dl class="keyword keyword0">
+                            <div class="toggle_all toggle0"><i class="fa-regular fa-hand"></i></div>
+                            <dt class="k_title k_title0">Hello,</dt>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain3">
+                        <dl class="keyword keyword3">
+                            <div class="toggle_all toggle3"><i class="fa-solid fa-comments"></i></div>
+                            <dt class="k_title k_title3">Communication</dt>
+                            <dd class="k_text k_text3"><span class="point_text">"인간에게 가장 중요한 능력은 자기 표현력이며,현대의 경영이나
+                                    관리는
+                                    커뮤니케이션에 의해 좌우된다."</span>
+                                <br />
+                                업무에서는 원활한 커뮤니케이션이 가장 중요하다고 생각합니다.
+                            </dd>
+                        </dl>
+                    </div>
+                    <!-- marquee2 -->
+                    <div class="keyword_container k_contain2">
+                        <dl class="keyword keyword2">
+                            <div class="toggle_all toggle2"><i class="fa-solid fa-scale-balanced"></i></div>
+                            <dt class="k_title k_title2">Honest</dt>
+                            <dd class="k_text k_text2"><span class="point_text">"훌륭함으로 가기 위한 첫 번째 단계는
+                                    정직이다."</span><br />
+                                저는 스스로에게 떳떳한 사람이 되자라는 가치관을 가지고 있습니다.
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain0">
+                        <dl class="keyword keyword0">
+                            <div class="toggle_all toggle0"><i class="fa-regular fa-hand"></i></div>
+                            <dt class="k_title k_title0">Hello,</dt>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain3">
+                        <dl class="keyword keyword3">
+                            <div class="toggle_all toggle3"><i class="fa-solid fa-comments"></i></div>
+                            <dt class="k_title k_title3">Communication</dt>
+                            <dd class="k_text k_text3"><span class="point_text">"인간에게 가장 중요한 능력은 자기 표현력이며,현대의 경영이나
+                                    관리는
+                                    커뮤니케이션에 의해 좌우된다."</span>
+                                <br />
+                                업무에서는 원활한 커뮤니케이션이 가장 중요하다고 생각합니다.
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!-- keyword2 -->
+            <div class="marquee_container">
+                <div class="track">
+                    <div class="keyword_container k_contain1">
+                        <dl class="keyword keyword1">
+                            <div class="toggle_all toggle1"><i class="fa-solid fa-infinity"></i></div>
+                            <dt class="k_title k_title1">Infinite</dt>
+                            <dd class="k_text k_text1"><span class="point_text">"실패는 유한하지만 가능성은 무한한 것이란는 가능성을 믿는
+                                    낙관적인
+                                    힘으로 인간은 발전하는
+                                    것이다."</span><br />무한한 성장이 기대되는 인력이 되고싶습니다.
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain4">
+                        <dl class="keyword keyword4">
+                            <div class="toggle_all toggle4"><i class="fa-solid fa-droplet"></i></div>
+                            <dt class="k_title k_title4">Diligence</dt>
+                            <dd class="k_text k_text4"><span class="point_text">"보통의 능력밖에 없다면 근면은 부족함을 보충해 줄
+                                    것이다."</span><br />어떤 일이든 근면성실하게 최선을 다하자라는 가치관을 가지고 있습니다.
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain0_1">
+                        <dl class="keyword keyword0">
+                            <div class="toggle_all toggle0_1"><i class="fa-solid fa-globe"></i></div>
+                            <dt class="k_title k_title0_1">World!</dt>
+                        </dl>
+                    </div>
+                    <!-- marquee2 -->
+                    <div class="keyword_container k_contain1">
+                        <dl class="keyword keyword1">
+                            <div class="toggle_all toggle1"><i class="fa-solid fa-infinity"></i></div>
+                            <dt class="k_title k_title1">Infinite</dt>
+                            <dd class="k_text k_text1"><span class="point_text">"실패는 유한하지만 가능성은 무한한 것이란는 가능성을 믿는
+                                    낙관적인
+                                    힘으로 인간은 발전하는
+                                    것이다."</span><br />무한한 성장이 기대되는 인력이 되고싶습니다.
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain4">
+                        <dl class="keyword keyword4">
+                            <div class="toggle_all toggle4"><i class="fa-solid fa-droplet"></i></div>
+                            <dt class="k_title k_title4">Diligence</dt>
+                            <dd class="k_text k_text4"><span class="point_text">"보통의 능력밖에 없다면 근면은 부족함을 보충해 줄
+                                    것이다."</span><br />어떤 일이든 근면성실하게 최선을 다하자라는 가치관을 가지고 있습니다.
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain0_1">
+                        <dl class="keyword keyword0">
+                            <div class="toggle_all toggle0_1"><i class="fa-solid fa-globe"></i></div>
+                            <dt class="k_title k_title0_1">World!</dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!-- keyword3 -->
+            <div class="marquee_container">
+                <div class="track">
+                    <div class="keyword_container k_contain0_2">
+                        <dl class="keyword keyword0">
+                            <div class="toggle_all toggle0_2"><i class="fa-solid fa-user"></i></div>
+                            <dt class="k_title k_title0_2">jua's portfolio</dt>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain5">
+                        <dl class="keyword keyword5">
+                            <div class="toggle_all toggle5"><i class="fa-brands fa-fly"></i></div>
+                            <dt class="k_title k_title5">Experience</dt>
+                            <dd class="k_text k_text5"><span class="point_text">"지식의 유일한 원천은 경험이다."</span><br />
+                                <span>다양한 경험을 통해 넓은 시야를 볼 수 있도록 하고자 합니다.</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain6">
+                        <dl class="keyword keyword6">
+                            <div class="toggle_all toggle6"><i class="fa-solid fa-fire"></i></div>
+                            <dt class="k_title k_title6">Passionate</dt>
+                            <dd class="k_text k_text6"><span class="point_text">"당신의 열정을 쫓아가라. 그게 막차인
+                                    것처럼"</span><br />
+                                <span>저는 열정냄새를 좋아합니다.</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!-- marquee2 -->
+                    <div class="keyword_container k_contain0_2">
+                        <dl class="keyword keyword0">
+                            <div class="toggle_all toggle0_2"><i class="fa-solid fa-user"></i></div>
+                            <dt class="k_title k_title0_2">jua's portfolio</dt>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain5">
+                        <dl class="keyword keyword5">
+                            <div class="toggle_all toggle5"><i class="fa-brands fa-fly"></i></div>
+                            <dt class="k_title k_title5">Experience</dt>
+                            <dd class="k_text k_text5"><span class="point_text">"지식의 유일한 원천은 경험이다."</span><br />
+                                <span>다양한 경험을 통해 넓은 시야를 볼 수 있도록 하고자 합니다.</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="keyword_container k_contain6">
+                        <dl class="keyword keyword6">
+                            <div class="toggle_all toggle6"><i class="fa-solid fa-fire"></i></div>
+                            <dt class="k_title k_title6">Passionate</dt>
+                            <dd class="k_text k_text6"><span class="point_text">"당신의 열정을 쫓아가라. 그게 막차인
+                                    것처럼"</span><br />
+                                <span>저는 열정냄새를 좋아합니다.</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!-- <div class="keyword_container k_contain7">
+                        <dl class="keyword keyword7">
+                            <div class="toggle_all toggle7"></div>
+                            <dt class="k_title k_title7">Flexible</dt>
+                            <dd class="k_text k_text7">훌륭함으로 가기 위한 첫 번째 단계는 정직이다.<br />
+                                <span>저는 스스로에게 떳떳한 사람이 되자라는 가치관을 가지고 있습니다.</span>
+                            </dd>
+                        </dl>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profile">
+        <h1 class="title wrap c_yellow">My Profile.</h1>
+        <div class="wrap">
+            <div id="profile_container">
+                <img id="profile_img" src="./img/profile.png" alt="프로필 이미지">
+                <div class="profile_text">
+                    <ul id="title_ani2">
+                        <li><img src="./img/t_pa2.png"></li>
+                        <li class="r_ani2">
+                            <img src="./img/t_r_1.png" alt="">
+                            <img class="r2" src="./img/t_r_2.png" alt="">
+                            <img src="./img/t_r_3.png" alt="">
+                        </li>
+                        <li><img src="./img/t_k2.png"></li>
+                        <li class="t_j"><img src="./img/t_j2.png" alt=""></li>
+                        <li class="u_ani"><img class="u2" src="./img/t_u2.png" alt=""></li>
+                        <li><img src="./img/t_a2.png" alt=""></li>
+                    </ul>
+                    <p class="point_text">스프링처럼 유연하게, 재치있는, 무한한 개발자</p>
+                    <p>코딩을 통해 텅 빈 화면을 채워나가며 가끔은 오류로 인해 좌절에 빠진적이 많았지만 해답을 찾기 위해 고민하고 끝없이 시도해가는 과정이 즐거웠습니다.
+                        비록 경험이 많지 않은 신입 개발자이지만 앞으로 더 나아가기 위해 끊임없이 도전하는 개발자가 되고 싶습니다.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="skill_content">
+            <div id="skill_all" class="wrap">
+                <div id="profile_skill">
+                    <dl>
+                        <dt>UI Development</dt>
+                        <dd>웹 퍼블리싱 HTML, CSS을 잘 이해하며 잘 다룹니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Mark Up</dt>
+                        <dd>웹 표준을 바탕으로 탄탄한 시멘틱 마크업을 작성합니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Co-work</dt>
+                        <dd>기획과 디자인, 프로그래밍 3가지를 모두 배워 의도를 이해하고 존중하여 최고의 의사소통을 끌어낼 수 있습니다. 팀 프로젝트 경험을 통해 항상 원활한 협업을
+                            끌어내려고
+                            노력합니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>Skills</dt>
+                        <dd>코드를 통해 어느곳이든 유연하게 사용하고 싶어 현재 javascript, jquary, git등 다양하게 공부중입니다.
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>For Users </dt>
+                        <dd>사용자에게 편하고 즐거운 웹사이트를 제공하기 위해 생각하고 고민하는 걸 좋아합니다.</dd>
+                    </dl>
+                </div>
+
+                <div class="center_line"></div>
+
+                <div id="chart_container">
+                    <div id="chart">
+                        <canvas id="radar-chart"></canvas>
+                    </div>
+                    <p id="chart_title">Ability</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section id="project_container" class="wrap">
+        <h1 class="title">My Project.</h1>
+        <div class="blog_slider">
+            <div class="swiper-wrapper">
+                <div class="blog_slider_item swiper-slide">
+                    <div class="slider_img">
+                        <img src="./img/project1.jpeg" alt="NERO project">
+                    </div>
+                    <div class="slider_content">
+                        <dl>
+                            <dt class="slider_code c_blue">01. NERO</dt>
+                            <dd class="slider_title">제작기간 | 2022.08 - 2022.11</dd>
+                            <dd class="slider_text">기획자와 디자이너와 협업하여 제작한 동네구독상권 플랫폼 “NERO”입니다.<br />
+                                플랫폼 NERO는 정돈된 레이아웃으로 구성하여 보기 편하게 제작하였고,<br />스크롤 탑 버튼과 다양한 스크롤 인터랙션을 구현하였습니다.</dd>
+                        </dl>
+                        <ul>
+                            <li><i class="fa-brands fa-html5"></i>&nbsp;HTML</li>
+                            <li><i class="fa-brands fa-css3-alt"></i>&nbsp;CSS</li>
+                            <li><i class="fa-brands fa-js"></i>&nbsp;Javascript</li>
+                        </ul>
+                        <button class="modal_btn">
+                            <span class="circle c_purple" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                                <a class="btn_text" href="#open_modal">이렇게 코드를 공부했어요.</a>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="blog_slider_item swiper-slide">
+                    <div class="slider_img">
+                        <img src="./img/project2.png" alt="Otting project">
+                    </div>
+                    <div class="slider_content">
+                        <dl>
+                            <dt class="slider_code c_pink">02. OTTING</dt>
+                            <dd class="slider_title">제작기간 | 2022.03 - 2022.06</dd>
+                            <dd class="slider_text">커뮤니케이션 공모전에 참가하기 위해 디자이너와 협업하여 제작한 영화추천 플랫폼 “OTTING”입니다.
+                                플랫폼 OTTING을 정돈된 레이아웃으로 구성하여 보기 편하게<br /> 제작하였고,스크롤 탑 버튼과 다양한 스크롤 인터랙션을 구현하였습니다.
+                            </dd>
+                        </dl>
+                        <ul>
+                            <li><i class="fa-brands fa-html5"></i>&nbsp;HTML</li>
+                            <li><i class="fa-brands fa-css3-alt"></i>&nbsp;CSS</li>
+                            <li><i class="fa-brands fa-js"></i>&nbsp;Javascript</li>
+                        </ul>
+                        <button class="modal_btn">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                                <a class="btn_text" href="#open_modal2">이렇게 코드를 공부했어요.</a>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider_pagination"></div>
+        </div>
+        <!-- modal -->
+        <div id="open_modal" class="modal_window">
+            <div>
+                <a href="#project_container" title="Close" class="modal_close"><i class="fa-solid fa-xmark"></i></a>
+                <a href="https://datave-nero.netlify.app/">
+                    <h1><i class="fa-regular fa-folder-open"></i>&nbsp;&nbsp;프로젝트 자세히 보러가기</h1>
+                </a>
+                <div class="modal_keyword">
+                    <ul>
+                        <li>#재미있는</li>
+                        <li>#팀워크</li>
+                        <li>#다양한</li>
+                        <li>#인터랙션</li>
+                        <li>#탄탄한</li>
+                        <li>#마크업</li>
+                    </ul>
+                </div>
+
+                <div class="tab_box">
+                    <ul class="tab-list">
+                        <li class="active"><i class="fa-solid fa-code"></i>&nbsp;Code1</li>
+                        <li><i class="fa-solid fa-code"></i>&nbsp;Code2</li>
+                        <li><i class="fa-solid fa-code"></i>&nbsp;Code3</li>
+                    </ul>
+                    <ul class="cont-list">
+                        <li class="active">
+                            <h2 class="point_text">첫번째 코드는요,</h2>
+                            <p>화면 Y의 값을 계산하여 스크롤Y의 값이 특정 위치에 오면 나타나는 패럴랙스 스크롤 인터랙션을 구현하였습니다.<br />해상도별로 구현하기 위해서
+                                ratio1이라는
+                                변수를 사용하였습니다.
+                            </p>
+                            <div class="cont-list_img">
+                                <img class="code_img" src="./img/code_review2.png">
+                                <img src="./img/code_review2_2.gif">
+                            </div>
+                        </li>
+                        <li>
+                            <h2 class="point_text">두번째 코드는요,</h2>
+                            <p>타이핑 효과를 구현하기 위해서 필요한 기본 요소 및 성정 값들을 Javascript를 통해 구현하였습니다.<br />
+                                이를 통해 텍스트가 작성되는 속도나 멈추는 시간을 구현하기 위해서 setInterval 함수를 사용하고 if문을 통해 타이핑 효과가 반복되도록 하였습니다.
+                            </p>
+                            <div class="cont-list_img">
+                                <img class="code_img" src="./img/code_review1.png">
+                                <img src="./img/code_review1_2.png">
+                            </div>
+                        </li>
+                        <li>
+                            <h2 class="point_text">세번째 코드는요,</h2>
+                            <p>header와 관련된 기능으로 마우스 위치에 따라 나타나도록 구현하였습니다.<br />
+                                원활한 협업을 위해 주석을 작성하였습니다.
+                            </p>
+                            <div class="cont-list_img">
+                                <img class="code_img" src="./img/code_review3_1.png">
+                                <img src="./img/code_review3_2.gif">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- modal2 -->
+        <div id="open_modal2" class="modal_window2">
+            <div>
+                <a href="#project_container" title="Close" class="modal_close"><i class="fa-solid fa-xmark"></i></a>
+                <a href="https://datave-nero.netlify.app/">
+                    <h1><i class="fa-regular fa-folder-open"></i>&nbsp;&nbsp;프로젝트 자세히 보러가기</h1>
+                </a>
+                <div class="modal_keyword">
+                    <ul>
+                        <li>#도전</li>
+                        <li>#팀워크</li>
+                        <li>#다양한</li>
+                        <li>#인터랙션</li>
+                        <li>#처음</li>
+                        <li>#공모전</li>
+                    </ul>
+                </div>
+
+                <div class="tab_box">
+                    <ul class="tab-list">
+                        <li class="active"><i class="fa-solid fa-code"></i>&nbsp;Code1</li>
+                        <li><i class="fa-solid fa-code"></i>&nbsp;Code2</li>
+                    </ul>
+                    <ul class="cont-list2">
+                        <li class="active">
+                            <h2 class="point_text">첫번째 코드는요,</h2>
+                            <p>원형 그래프가 채워지는 효과를 구현하기 위해 버튼을 클릭했을 때 그래프가 채워지는 Javascript를 통해 구현하였습니다.
+                            </p>
+                            <div class="cont-list_img">
+                                <img class="code_img" src="./img/code_review4_1.png">
+                                <img src="./img/code_review4_2.gif">
+                            </div>
+                        </li>
+                        <li>
+                            <h2 class="point_text">두번째 코드는요,</h2>
+                            <p>이미지 슬라이드를 구현하기 위해 Javascript를 사용하였습니다. 변수와 반복문을 활용하여 버튼을 클릭했을 때 새로운 이미지로 슬라이드가 됩니다.
+                            </p>
+                            <div class="cont-list_img">
+                                <img class="code_img" src="./img/code_review5.gif">
+                                <img src="./img/code_review5_1.png">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="wrap">
+        <h1 class="title c_blue">Contact.</h1>
+        <div class="contact_title">
+            <h2>스프링의 특성처럼 탄력있고 유연한 개발자입니다.<br /> 형체도 자유자재로 변형되듯이 어느 환경에서도 유연하게 적응할 수 있습니다.</h2>
+            <div class="contact_link">
+                <a href="mailto:wndk3309@gmali.com">
+                    <span class="title-word title-word-1">CONTACT</span>
+                    <span class="title-word title-word-2">ME - <i class="fa-solid fa-hands-clapping"></i></span>
+                </a>
+            </div>
+            <p>메일을 보내주시면 평일 기준 하루 내로 답장을 보내드릴게요.</p>
+
+
+        </div>
+        <div class="contact_line"></div>
+
+        <div class="contact_final">
+            <div class="contact_info">
+                <dl>
+                    <dt><i class="fa-solid fa-phone-volume"></i>&nbsp;Mobile</dt>
+                    <dd>+82 10-6259-3309</dd>
+                </dl>
+                <dl>
+                    <dt><i class="fa-solid fa-envelope"></i>&nbsp;E-mail</dt>
+                    <dd>wndk3309@gmail.com</dd>
+                </dl>
+                <dl>
+                    <dt><i class="fa-solid fa-location-dot"></i>&nbsp;Address</dt>
+                    <dd>경기도 성남시 중원구</dd>
+                </dl>
+            </div>
+            <button class="modal_btn">
+                <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    <a class="btn_text" href="#">Pick me</a>
+                </span>
+            </button>
+        </div>
+    </section>
+
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <!----------- chart js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script type="text/javascript" src="./js/chart.js"></script>
+</body>
+
+</html>
