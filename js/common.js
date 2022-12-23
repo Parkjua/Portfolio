@@ -211,3 +211,20 @@ var swiper = new Swiper(".blog_slider", {
     clickable: true,
   },
 });
+
+// 복사붙여넣기
+$(function () {
+  $(".copy").click(function () {
+    var copyText = document.getElementById("copy_id"); //클립보드에 복사할 텍스트 가져옴
+    var textArea = document.createElement("textarea"); //textarea 생성
+
+    textArea.value = copyText.textContent; //textarea에 텍스트 입력
+    document.body.appendChild(textArea); //body에 textarea 추가
+
+    textArea.select(); //선택
+    document.execCommand("Copy"); //복사
+    textArea.remove(); //생성한 textarea 삭제
+
+    alert("복사되었습니다.");
+  });
+});
