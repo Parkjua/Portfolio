@@ -1442,6 +1442,18 @@ button:hover .btn_text {
 .contact_final {
   display: flex;
   justify-content: space-between;
+}.copy {
+  padding-left: calc(100vw * 10 / 1920);
+  font-size: calc(100vw * 30 / 1920);
+}
+dl dt i {
+  color: #f090c6;
+}
+dl:nth-child(2) dt i {
+  color: #91c6f4;
+}
+dl:nth-child(3) dt i {
+  color: #f9d65b;
 }
 /* title animation */
 .title-word {
